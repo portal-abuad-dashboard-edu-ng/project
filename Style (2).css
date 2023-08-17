@@ -1,0 +1,321 @@
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  background-color:#f4f4f4;
+  width: 100%;
+  max-height: 100vh;
+  margin: 0;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+#branding{
+    margin-top: -35px;
+    padding-top: 25px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    color: whitesmoke;
+    background: red;
+    border: none;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+   /*  border-radius:10px ;/*  */
+   cursor: pointer;
+}
+
+
+.buttons{
+    color: whitesmoke;
+    background: red;
+    border: none;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+   /*  border-radius:10px ;/*  */
+   cursor: pointer;
+  
+}
+
+
+button:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.dark{
+padding: 15px;
+background: #616161;
+color: whitesmoke;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+.highlight{
+    color: red;
+    font-weight: bold;
+    
+}
+
+header{
+    background: #616161;
+    color: white;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: red 3px solid;
+}
+
+header a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header li{
+    float:left;
+ display: inline;
+ padding: 0 20px 0 20px;
+}
+
+header #identifier{
+    float:left ;
+}
+header #identifier h1{
+     padding-right: 200px;
+    margin: 0;
+  margin-top: -10px;
+}
+header nav{
+  float:right;
+  margin-top:10px;          
+}
+
+footer{
+    background-color: red;
+    color: white;
+    text-align: center;
+   /*  * height: 0px;/*  */
+    padding : 20px;
+    /*  * margin-top:20px/*  */
+}
+/*  *
+.footer li{
+    float: left;
+ padding: 0px 10px 0 10px; 
+ text-align: center;
+ overflow: hidden;
+ margin-left:50px;
+}
+/*  */
+
+ .current a{
+    color: red;
+    font-weight: bold;
+}
+
+
+a:hover{
+    color: cyan;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+#showcase{
+    background: url("../img/showcase.jpg");
+    
+background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    color: white;
+    text-align: center;
+}
+
+#showcase h1{
+    font-size: 55px;
+    margin-top: 100px;
+    margin-bottom: 10px ;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+/*  *@media (max-width: 768px) {
+  header li {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+/*  */
+/*  * #newsletter{
+    background-color: #616161;
+}
+
+.container{
+    text-align: center
+}
+form{
+margin-left: 300px;
+   float: right; 
+   margin-bottom: 100px;
+}
+#s{
+    color: red;
+    margin-top: 60px;
+    margin-right: 200px;
+    margin-bottom: px;
+    text-align: left;
+}
+/*  */
+
+#newsletter{
+    color: white;
+    background-color:#616161 ;
+    padding: 15px;
+}
+
+#newsletter h1{
+    float: left; 
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/*  
+#boxes{
+    margin-top: 20px;
+  
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+ /*  */
+
+
+
+/* Boxes */
+#boxes {
+  margin-top:20px;
+  
+}
+
+#boxes .container .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding: 10px;
+  
+}
+
+#boxes .container .box img{
+  width:90px;
+ 
+}
+#sidebar{
+    float: right;
+    margin-top: -39pc;
+    margin-right: -0.5pc;
+    padding: 1px;
+    
+}
+#main-col ul li{
+    list-style: none;
+    width: 450px;
+    background:#e6e6e6;
+    border: #cccccc solid 1px;
+    padding:0px;
+    margin-bottom: 5px;
+}
+
+#main2{
+    width: 500px;
+}
+
+ aside#sidebar1{
+    width: 250px;
+    float: right;
+    margin-top: -33pc;
+   
+}
+
+/*  *@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+/*  */
+.contact{
+    float: right;
+    overflow: hidden;
+    margin-top: -13pc;
+    width: 200px;
+   margin-right: 10pc;
+    background-color: #616161;
+    padding:0px;
+    color: white;
+    text-align: center;
+    
+}
+
+.red{
+    color: black;
+}
+.contact h2{
+    color: red;
+    
+}
+/*  *
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar, .contact, aside#sidebar1, #main-col ul li, #main2{
+    float:none;
+    text-align:center;
+    width:100%;
+    height: pc;
+  }
+/*  */
+
+/*  * @media (max-width: 768px) {
+  header li {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+  }
+/*  */
