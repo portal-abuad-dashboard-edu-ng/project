@@ -154,3 +154,12 @@ input[type="text"], input[type="number"] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
+footer{
+    margin: 10px 0 30px;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: var(--line);
+    color: black;
+}
+
